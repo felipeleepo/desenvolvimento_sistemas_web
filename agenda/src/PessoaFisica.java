@@ -6,6 +6,7 @@ public class PessoaFisica extends Contato{
 	}
 
 	public String verificarCPF(){
+		System.out.print("CPF " + cpf + " ");
 		int[] aux = new int[11]; 
 
 		// SOMA DOS BITS XXX.XXX.XXX-00
